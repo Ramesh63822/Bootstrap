@@ -1,0 +1,43 @@
+.card{
+    align-items: center !important;
+    margin-bottom: 20px !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3), inset 4px 4px 10px white;
+    border: none;
+    background: #e5e5e5 !important;
+   
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3), inset -4px -4px 10px white;
+    transition: .4S;
+}
+
+.product{
+    height: 300px !important;
+    width: 250px!important;
+    margin: 30px !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.img{
+    border-radius: 20px;
+    justify-content: center !important;
+    height: 200px !important;
+    width: 200px !important;
+    margin-top: 10px;   
+}
+
+.navbar-nav a:hover{
+    border-bottom: 2px green solid !important;
+}
+
+#footer{
+    background-color: rgb(233, 224, 224) ;
+    margin-top: 25px !important;
+}
+
+.icon{
+    display: inline-block;
+    margin: 5px;
+}
